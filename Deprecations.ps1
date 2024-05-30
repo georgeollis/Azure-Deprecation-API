@@ -30,5 +30,7 @@ function getAzureDeprections {
         
 
     }
+
+    return $list
     
 }
