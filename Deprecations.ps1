@@ -13,17 +13,21 @@ function getAzureDeprections {
 
     foreach ($item in $xmldoc.rss.channel.item) {
 
-        $date = (((($item.description).Split(",")[1]).Trim() | Select-String -Pattern "\d{1,2}/\d{1,2}/\d{4}").Matches.Value) # Regex find date pattern
+        $date = [datetime](((($item.description).Split(",")[1]).Trim() | Select-String -Pattern "\d{1,2}/\d{1,2}/\d{4}").Matches.Value) # Regex find date pattern
         $service = ($item.description).Split(",")[0].Split(":")[1].Trim() # Select the service name
+        $period = $item.description.Split(",")[2].Split(":")[1].Trim()
         $title = ($item.title).Trim() # Remove white space from title
+        $publishedDate = [datetime]$item.pubDate
 
 
         $object = [PSCustomObject]@{
             title          = $title
-            deprectionDate = [datetime]$date
+            deprectionDate = $date
             link           = $item.link.href
             service        = $service
-            deprecated     = [bool]([datetime]$date -lt (Get-Date))
+            deprecated     = [bool]($date -lt (Get-Date))
+            publishedDate  = $publishedDate
+            targetPeriod   = $period
         }
 
         $list.Add($object) | Out-Null # Add custom object to the array.
