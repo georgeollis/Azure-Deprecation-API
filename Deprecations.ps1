@@ -27,17 +27,12 @@ function Get-AzureDeprections {
             deprectionDate = [datetime]$date
             link           = $item.link.href
             service        = $service
+            deprecated     = [bool]([datetime]$date -lt (Get-Date))
         }
 
         $list.Add($object) | Out-Null # Add custom object to the array.
         
 
     }
-
-    if ($FutureOnly) {
-        $list = $list | Where-Object { $_.deprectionDate -gt (Get-Date) } 
-    }
-
-    return $list # return the list to the terminal
     
 }
