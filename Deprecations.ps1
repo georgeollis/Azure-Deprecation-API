@@ -2,7 +2,7 @@
 function getAzureDeprections {
         
     try {
-        [xml]$xmldoc = (Invoke-WebRequest -Uri "https://aztty.azurewebsites.net/rss/deprecations").Content.Substring(1) # Get Azure deprecations
+        [xml]$xmldoc = (iwr "https://aztty.azurewebsites.net/rss/deprecations").Content.Substring(1) # Get Azure deprecations
     }
     catch {
         throw $_.Exception.Message
