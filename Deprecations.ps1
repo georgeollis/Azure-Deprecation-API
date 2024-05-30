@@ -1,10 +1,6 @@
 
-function Get-AzureDeprections {
-    [CmdletBinding()]
-    param (
-        [Parameter(Mandatory = $false)][bool]$FutureOnly = $false
-    )
-    
+function getAzureDeprections {
+        
     try {
         [xml]$xmldoc = (Invoke-WebRequest -Uri "https://aztty.azurewebsites.net/rss/deprecations").Content.Substring(1) # Get Azure deprecations
     }
