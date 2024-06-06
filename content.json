@@ -1,0 +1,1402 @@
+[
+  {
+    "title": "We're retiring Memory Optimized Data Flows in Azure Data Factory - use General Purpose for better performance at a lower price.",
+    "deprectionDate": "2027-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/were-retiring-memory-optimized-data-flows-in-azure-data-factory-use-general-purpose-for-better-performance-at-a-lower-price/",
+    "service": "Data Factory",
+    "deprecated": false
+  },
+  {
+    "title": "Support of Azure Notification Hubs’ Firebase Cloud Messaging (FCM) legacy API will be deprecated by July 2024.",
+    "deprectionDate": "2027-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/support-of-azure-notification-hubs-firebase-cloud-messaging-fcm-legacy-api-will-be-deprecated-by-july-2024/",
+    "service": "Notification Hubs",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Front Door (classic) will be retired on 31 March 2027",
+    "deprectionDate": "2027-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-front-door-classic-will-be-retired-on-31-march-2027/",
+    "service": "Azure Front Door",
+    "deprecated": false
+  },
+  {
+    "title": "Community support for Standard_M192ims_v2 is ending on 31 March 2027",
+    "deprectionDate": "2027-03-19T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/community-support-for-standardm192imsv2-is-ending-on-31-march-2027/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "Community support for Standard_M192ids_v2 is ending on 31 March 2027",
+    "deprectionDate": "2027-03-18T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/community-support-for-standardm192idsv2-is-ending-on-31-march-2027/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "Begin using Azure Monitor–based dashboards in Azure API Management before the built-in analytics dashboards are retired on 15 March 2027",
+    "deprectionDate": "2027-03-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/begin-using-azure-monitor-based-dashboards-in-azure-api-management-before-the-builtin-analytics-dashboards-are-retired-on-15/",
+    "service": "API Management",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Content Moderator will be retired on 15 March 2027",
+    "deprectionDate": "2027-03-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-content-moderator-retirement/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement notice: Windows Server 2022 will retire with k8s 1.34 in March 2027",
+    "deprectionDate": "2027-03-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/ws2022-retirement-aks/",
+    "service": "Kubernetes Service",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement: Support for Application Gateway Web Application Firewall v2 Configuration is ending",
+    "deprectionDate": "2027-03-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-support-for-application-gateway-web-application-firewall-v2-configuration-is-ending/",
+    "service": "Application Gateway",
+    "deprecated": false
+  },
+  {
+    "title": "Support for Standard_M192idms_v2 will be retired on 31 March 2027",
+    "deprectionDate": "2027-03-14T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/support-for-standardm192idmsv2-will-be-retired-on-31-march-2027/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "HPC Pack 2016 will be retired on 12 January 2027",
+    "deprectionDate": "2027-01-13T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/hpc-pack-2016-will-be-retired-on-12-january-2027/",
+    "service": "CycleCloud",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement: Support for the in-process model for .NET apps in Azure Functions ends 10 November 2026.",
+    "deprectionDate": "2026-11-10T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-support-for-the-inprocess-model-for-net-apps-in-azure-functions-ends-10-november-2026/",
+    "service": "Azure Functions",
+    "deprecated": false
+  },
+  {
+    "title": "AI Services Anomaly Detector will be retired on 1 October 2026",
+    "deprectionDate": "2026-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/ai-services-anomaly-detector-will-be-retired-on-1-october-2026/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "AI Services Metrics Advisor will be retired on 1 October 2026",
+    "deprectionDate": "2026-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/ai-services-metrics-advisor-will-be-retired-on-1-october-2026/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "Azure AI Translator S2-S4 billing instances will be retired on 1 October 2026 – transition to Commitment Tiers for discounted pricing.",
+    "deprectionDate": "2026-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-ai-translator-s2s4-billing-instances-will-be-retired-on-1-october-2026-transition-to-commitment-tiers-for-discounted-pr/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "Migrate to Azure Resource Manager control plane API version 2021-11-01 by 30 September 2026",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/migrate-to-azure-resource-manager-control-plane-api-version-20211101-by-30-september-2026/",
+    "service": "Service Bus",
+    "deprecated": false
+  },
+  {
+    "title": "Some Azure Service Bus SDK libraries will be retired on 30 September 2026—migrate to the latest SDKs",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-update-your-azure-service-bus-sdk-libraries-by-30-september-2026/",
+    "service": "Service Bus",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Maps Web SDK Map Control version 2.0.x and Azure Maps Service Module will be retired on 30 September 2026",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-maps-web-sdk-map-control-version-20x-and-azure-maps-service-module-will-be-retired-on-30-september-2026/",
+    "service": "Azure Maps",
+    "deprecated": false
+  },
+  {
+    "title": "Action required: Migrate to using ARG query for “Get Alert Summary” in Azure Monitor",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/action-required-migrate-to-using-arg-query-for-get-alert-summary-in-azure-monitor/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Transition to the ContainerLogV2 table by 30 September 2026",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/transition-to-the-containerlogv2-table-by-30-september-2026/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Transition to using standard tests for single-step availability testing in Azure Monitor application insights by 30 September 2026",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/transition-to-using-standard-tests-for-singlestep-availability-testing-in-azure-monitor-application-insights-by-30-september/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Migrate to Azure Resource Manager control plane API version 2021-11-01 by 30 September 2026",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/migrate-to-azure-resource-manager-control-plane-api-version-20211101-by-30-september-2026/",
+    "service": "Event Hubs",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Virtual Desktop (classic) will be retired on 30 September 2026 - Please transition to Azure Virtual Desktop",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-virtual-desktop-classic-will-be-retired-on-30-september-2026-please-transition-to-azure-virtual-desktop/",
+    "service": "Virtual Desktop",
+    "deprecated": false
+  },
+  {
+    "title": "Azure API for FHIR retiring on 30 September 2026",
+    "deprectionDate": "2026-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-api-for-fhir-retirement/",
+    "service": "Health Data Services",
+    "deprecated": false
+  },
+  {
+    "title": "SMART on FHIR proxy feature in Azure Health Data Services will be retired on 21st September 2026 - Transition to SMART on FHIR (Enhanced).",
+    "deprectionDate": "2026-09-21T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/smart-on-fhir-proxy-feature-in-azure-health-data-services-will-be-retired-on-21st-september-2026-transition-to-smart-on-fhir/",
+    "service": "Health Data Services",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Monitor Data Collection API Retirement",
+    "deprectionDate": "2026-09-18T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-monitor-data-collection-api-retirement/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Maps Render V1 APIs will be retired on 17 September 2026 – transition to Azure Maps Render V2 APIs",
+    "deprectionDate": "2026-09-17T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-maps-render-v1-apis-will-be-retired-on-17-september-2026/",
+    "service": "Azure Maps",
+    "deprecated": false
+  },
+  {
+    "title": "We’re ending support for the 2017-03-01-GA API.",
+    "deprectionDate": "2026-09-16T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-re-ending-support-for-the-20170301ga-api/",
+    "service": "Container Registry",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Maps Gen1 Price Tier will be retired on 15 September 2026 -- transition to Azure Maps Gen2 Price Tier",
+    "deprectionDate": "2026-09-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-maps-gen1-price-tier-retirement/",
+    "service": "Azure Maps",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Activity Logs Legacy solution is replaced by Diagnostic settings",
+    "deprectionDate": "2026-09-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-activity-logs-legacy-solution-is-replaced-by-diagnostic-settings/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Support for the 1.x version of Azure Functions ends 14 September 2026",
+    "deprectionDate": "2026-09-14T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/support-for-the-1x-version-of-azure-functions-ends-14-september-2026/",
+    "service": "Azure Functions",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Monitor for AKS-Engine will not be supported on 14 September 2026",
+    "deprectionDate": "2026-09-14T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-monitor-for-aksengine-will-not-be-supported-on-14-september-2026/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Computer Vision v1.0, v2.0, v2.1, v3.0, and v3.1 APIs will be retired on 13 September 2026",
+    "deprectionDate": "2026-09-13T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/computer-vision-api-retirements-13-9-2026/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "Migrate to Azure AI Document Intelligence v3.1 GA version",
+    "deprectionDate": "2026-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/migrate-to-azure-ai-document-intelligence-v31-ga-version/",
+    "service": "Logic Apps",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Maps Web SDK Map Controls Version 1.xx will be retired on 19 September 2026 – transition to Azure Maps Web SDK Map Controls Version 3.xx",
+    "deprectionDate": "2026-08-19T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-maps-web-sdk-map-controls-version-1xx-will-be-retired-on-19-september-2026/",
+    "service": "Azure Maps",
+    "deprecated": false
+  },
+  {
+    "title": "Cognitive Services Custom Commands feature is being retired on April 30, 2026",
+    "deprectionDate": "2026-04-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-custom-commands-will-retire-on-30-april-2026/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "Application Gateway V1 will be retired on 28 April 2026– Transition to Application Gateway V2",
+    "deprectionDate": "2026-04-28T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/application-gateway-v1-will-be-retired-on-28-april-2026-transition-to-application-gateway-v2/",
+    "service": "Application Gateway",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Batch classic compute node communication model will be retired on 31 March 2026",
+    "deprectionDate": "2026-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-classic-compute-node-communication-model-will-be-retired-on-31-march-2026/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Batch custom image pools using VHD or managed images will be retired on 31 March 2026",
+    "deprectionDate": "2026-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/batch-custom-image-pools-using-vhd-or-managed-images-will-be-retired-on-31-march-2024/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Batch Service in select regions will be retired on 31 March 2026",
+    "deprectionDate": "2026-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/batch-service-in-select-regions-will-be-retired-on-31-march-2026/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Select Batch Pool autoscale service-defined variables will be retired on 31 March 2024",
+    "deprectionDate": "2026-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/select-batch-pool-autoscale-servicedefined-variables-will-be-retired-on-31-march-2024/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Transition to built-in Azure Monitor alerts for Recovery Services vaults in Azure Backup by 31 March 2026",
+    "deprectionDate": "2026-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/transition-to-builtin-azure-monitor-alerts-for-recovery-services-vaults-in-azure-backup-by-31-march-2026/",
+    "service": "Azure Backup",
+    "deprecated": false
+  },
+  {
+    "title": "Action Required: Transition to DCR-based KQL transformations by 31 March 2026",
+    "deprectionDate": "2026-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/action-required-transition-to-dcrbased-kql-transformations-by-31-march-2026/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Transition to Azure AD to query data from Azure Monitor application insights by 31 March 2026",
+    "deprectionDate": "2026-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/transition-to-azure-ad-to-query-data-from-azure-monitor-application-insights-by-31-march-2026/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Classic experience to protect VMware machines using Azure Site Recovery will be retired on 30 March 2026",
+    "deprectionDate": "2026-03-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/classic-vmware-dr-deprecation/",
+    "service": "Site Recovery",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement: Azure Database Migration Service (classic) - SQL Server scenarios deprecation",
+    "deprectionDate": "2026-03-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-azure-database-migration-service-classic-sql-server-scenarios-deprecation/",
+    "service": "DB Migration Service",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement Announcement: Assigning alert trigger playbooks within Microsoft Sentinel analytics rules",
+    "deprectionDate": "2026-03-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-announcement-assigning-alert-trigger-playbooks-within-microsoft-sentinel-analytics-rules/",
+    "service": "Microsoft Sentinel",
+    "deprecated": false
+  },
+  {
+    "title": "Pod Security Policy is being deprecated with AKS 1.25 and 2023-06-01 API version",
+    "deprectionDate": "2025-10-14T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/pod-security-policy-is-being-deprecated-with-aks-125-and-20230601-api-version/",
+    "service": "Azure Policy",
+    "deprecated": false
+  },
+  {
+    "title": "Migrate to conversational language understanding before Language Understanding (LUIS) is retired on 1 October 2025",
+    "deprectionDate": "2025-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/language-understanding-retirement/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Batch Low Priority VMs will be retired on 30 September 2025",
+    "deprectionDate": "2025-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-low-priority-vms-will-be-retired-on-30-september-2025/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Default Internet outbound access for Simplified node communication Batch pools without public IP addresses will be retired on 30 September 2025",
+    "deprectionDate": "2025-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/default-internet-outbound-access-for-simplified-node-communication-batch-pools-without-public-ip-addresses-will-be-retired-on/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Announcing Avere vFXT for Azure Retirement",
+    "deprectionDate": "2025-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/vfxtretirement/",
+    "service": "Avere vFXT",
+    "deprecated": false
+  },
+  {
+    "title": "Announcing Azure HPC Cache Retirement",
+    "deprectionDate": "2025-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/hpccacheretirement/",
+    "service": "HPC Cache",
+    "deprecated": false
+  },
+  {
+    "title": "Default outbound access for VMs in Azure will be retired— transition to a new method of internet access",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/default-outbound-access-for-vms-in-azure-will-be-retired-transition-to-a-new-method-of-internet-access/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "Default outbound access for VMs in Azure will be retired— updates and more information",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/default-outbound-access-for-vms-in-azure-will-be-retired-updates-and-more-information/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "Community support for Azure Functions Proxies will end on 30 September 2025",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/community-support-for-azure-functions-proxies-will-end-on-30-september-2025/",
+    "service": "Azure Functions",
+    "deprecated": false
+  },
+  {
+    "title": "Upgrade Azure Database for MySQL to MySQL v8.0 before support for v5.7 ends",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/upgrade-azure-database-for-mysql-to-mysql-v80-before-support-for-v57-ends/",
+    "service": "Database for MySQL",
+    "deprecated": false
+  },
+  {
+    "title": "Some compliance features in Microsoft Defender for Cloud will be retired on September 30, 2025",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/some-compliance-features-in-microsoft-defender-for-cloud-will-be-retired-on-september-30-2025/",
+    "service": "Defender for Cloud",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Monitor ITSM connector for creating ServiceNow alerts will be retired on 30 September 2025",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-monitor-itsm-connector-for-creating-servicenow-alerts-will-be-retired-on-30-september-2025/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Monitor ITSM connector for creating ServiceNow events will be retired on 30 September 2025",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-monitor-itsm-connector-for-creating-servicenow-events-will-be-retired-on-30-september-2025/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Migrate to Azure Monitor VM insights by 30 September 2025 when Service Map will be retired",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/migrate-to-azure-monitor-vm-insights-by-30-september-2025-when-service-map-will-be-retired/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Switch to Azure AD authentication for application insights by 30 September 2025",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/switch-to-azure-ad-authentication-for-application-insights-by-30-september-2025/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "The application insights Java 2.X SDK will be retired on 30 September 2025",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/application-insights-java-2x-retirement/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Upgrade to Standard SKU public IP addresses in Azure by 30 September 2025—Basic SKU will be retired",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/upgrade-to-standard-sku-public-ip-addresses-in-azure-by-30-september-2025-basic-sku-will-be-retired/",
+    "service": "Virtual Network",
+    "deprecated": false
+  },
+  {
+    "title": "Standard and High-Performance VPN Gateway SKUs will be retired on 30 September 2025",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/standard-and-highperformance-vpn-gateway-skus-will-be-retired-on-30-september-2025/",
+    "service": "VPN Gateway",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Basic Load Balancer will be retired on 30 September 2025—upgrade to Standard Load Balancer",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-basic-load-balancer-will-be-retired-on-30-september-2025-upgrade-to-standard-load-balancer/",
+    "service": "Load Balancer",
+    "deprecated": false
+  },
+  {
+    "title": "Azure unmanaged disks will be retired on 30 September 2025",
+    "deprectionDate": "2025-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-unmanaged-disks-will-be-retired-on-30-september-2025/",
+    "service": "Managed Disks",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Database for MariaDB will be retired on 19 September 2025 – Migrate to Azure Database for MySQL Flexible Server",
+    "deprectionDate": "2025-09-19T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-database-for-mariadb-will-be-retired-on-19-september-2025-migrate-to-azure-database-for-mysql-flexible-server/",
+    "service": "Database for MariaDB",
+    "deprecated": false
+  },
+  {
+    "title": "SAP HANA on Azure Large Instances will be retired by 30 June 2025 – transition to Virtual Machines",
+    "deprectionDate": "2025-06-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/sap-hana-on-azure-large-instances-will-be-retired-by-30-june-2025-transition-to-virtual-machines/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "We’re retiring Cluster Configuration with Flux v1 on 24 May 2025 – transition to GitOps extension for Kubernetes to move to Flux v2",
+    "deprectionDate": "2025-05-24T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/migrate-your-gitops-configurations-from-flux-v1-to-flux-v2-by-24-may-2025/",
+    "service": "Azure Policy",
+    "deprecated": false
+  },
+  {
+    "title": "Action required: Upgrade your App Service apps to Node 20 LTS by 30 April 2025",
+    "deprectionDate": "2025-04-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/action-required-upgrade-your-app-service-apps-to-node-20-lts-by-30-april-2025/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "Support for Ubuntu 20.04 LTS for Batch pools will be retired on 23 April 2025",
+    "deprectionDate": "2025-04-24T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/support-for-ubuntu-2004-lts-for-batch-pools-will-be-retired-on-23-april-2025/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Azure CycleCloud support for Chef run_lists and cookbooks in cluster-init projects is ending on 31 March 2025",
+    "deprectionDate": "2025-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-cyclecloud-support-for-chef-runlists-and-cookbooks-in-clusterinit-projects-is-ending-on-31-march-2025/",
+    "service": "CycleCloud",
+    "deprecated": false
+  },
+  {
+    "title": "Every-write AOF persistence on Azure Cache for Redis Enterprise and Enterprise Flash will be retired on 1 April 2025",
+    "deprectionDate": "2025-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/everywrite-aof-persistence-on-azure-cache-for-redis-enterprise-and-enterprise-flash-will-be-retired-on-1-april-2025/",
+    "service": "Redis Cache",
+    "deprecated": false
+  },
+  {
+    "title": "Support for Connector for AWS in Cost Management is ending on 31 March 2025",
+    "deprectionDate": "2025-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/crossclouddeprecation/",
+    "service": "Cost Management",
+    "deprecated": false
+  },
+  {
+    "title": "Update to Azure Functions Service Bus extension v5.x by 31 March 2025 for continued support",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/update-to-azure-functions-service-bus-extension-v5x-by-31-march-2025-for-continued-support/",
+    "service": "Service Bus",
+    "deprecated": false
+  },
+  {
+    "title": "Azure QnA Maker will be retired on 31 March 2025",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-qna-maker-will-be-retired-on-31-march-2025/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "Azure HDInsight 4.0 will be retired on 31 March 2025 - migrate your HDInsight clusters to 5.1",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-hdinsight-40-will-be-retired-on-31-march-2025-migrate-your-hdinsight-clusters-to-51/",
+    "service": "HDInsight",
+    "deprecated": false
+  },
+  {
+    "title": "Azure HDInsight 5.0 will be retired on 31 March 2025",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/hdinsight5retire/",
+    "service": "HDInsight",
+    "deprecated": false
+  },
+  {
+    "title": "Standard_NC24rs_v3 virtual machines will be retired on March 31st, 2025",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/standardnc24rsv3-virtual-machines-will-be-retired-on-march-31st-2025/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "Action recommended: Implement disaster recovery strategies for your Azure App Service web apps by 31 March 2025",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/action-recommended-implement-disaster-recovery-strategies-for-your-azure-app-service-web-apps-by-31-march-2025/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "Visual Studio App Center retirement",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/visual-studio-app-center-retirement/",
+    "service": "Visual Studio App Center",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Maps Native SDK for Android and iOS will be retired on 31 March 2025 – transition to use Azure Maps Web SDK in a web view",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-maps-native-sdk-for-android-and-ios-will-be-retired-on-31-march-2025-transition-to-use-web-view-of-azure-maps-web-sdk/",
+    "service": "Azure Maps",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Container Monitoring solution will be retired on 31 March 2025",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/omstoci/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Time Series Insights will be retired on 31 March 2025",
+    "deprectionDate": "2025-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-ll-retire-azure-time-series-insights-on-31-of-march-2025/",
+    "service": "Time Series Insights",
+    "deprecated": false
+  },
+  {
+    "title": "Migrate your Git Repository to automated deployments with APIOps by 15 March 2025",
+    "deprectionDate": "2025-03-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/migrate-your-git-repository-to-automated-deployments-with-apiops-by-15-march-2025/",
+    "service": "API Management",
+    "deprecated": false
+  },
+  {
+    "title": "Support for Azure Machine Learning Explanation and Fairness Dashboards is ending on 14 March 2025",
+    "deprectionDate": "2025-03-14T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/aml-explanation-fairness-retirement/",
+    "service": "Machine Learning",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement: HTTP application routing add-on (preview) for AKS will retire 03/03/2025",
+    "deprectionDate": "2025-03-03T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-http-application-routing-addon-preview-for-aks-will-retire-03032025/",
+    "service": "Kubernetes Service",
+    "deprecated": false
+  },
+  {
+    "title": "Extended support for PHP 8.1 ends on 25 November 2024",
+    "deprectionDate": "2024-11-25T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/php81support/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Spatial Anchors Retirement",
+    "deprectionDate": "2024-11-21T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-spatial-anchors-retirement/",
+    "service": "Spatial Anchors",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement: Support for .NET 6 ends on 12 November 2024—upgrade your Azure Functions apps to .NET 8",
+    "deprectionDate": "2024-11-12T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-support-for-net-6-ends-on-12-november-2024-upgrade-your-azure-functions-apps-to-net-8/",
+    "service": "Azure Functions",
+    "deprecated": false
+  },
+  {
+    "title": "Extended support for .NET 6 (LTS) ends on 12 November 2024",
+    "deprectionDate": "2024-11-12T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/dotnet6support/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "Support for PostgreSQL version 11 in Azure Database PostgreSQL Flexible Server ends on 9 November 2024",
+    "deprectionDate": "2024-11-10T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/flexpg11-retirement/",
+    "service": "Database for PostgreSQL",
+    "deprecated": false
+  },
+  {
+    "title": "Support for PostgreSQL version 11 in Azure Database PostgreSQL Single Server ends on 9 November 2024",
+    "deprectionDate": "2024-11-10T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/singlepg11-retirement/",
+    "service": "Database for PostgreSQL",
+    "deprecated": false
+  },
+  {
+    "title": "Support for TLS 1.0/1.1 on Azure Cache for Redis ending on 31 October 2024",
+    "deprectionDate": "2024-11-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/support-for-tls-1011-on-azure-cache-for-redis-ending-on-31-october-2024/",
+    "service": "Redis Cache",
+    "deprecated": false
+  },
+  {
+    "title": ".Net Standard user-defined functions for Azure Stream Analytics will be retired on 30 September 2024.",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/net-standard-userdefined-functions-for-azure-stream-analytics-will-be-retired-on-30-september-2024/",
+    "service": "Stream Analytics",
+    "deprecated": false
+  },
+  {
+    "title": "Custom .net deserializer for Azure Stream Analytics will be retired on 30 September 2024",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/custom-net-deserializer-for-azure-stream-analytics-will-be-retired-on-30-september-2024/",
+    "service": "Stream Analytics",
+    "deprecated": false
+  },
+  {
+    "title": "Extended support for Python 3.8 ends on October 2024",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/python38support/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Batch CLI extensions will be retired on 30 September 2024",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-cli-extensions-will-be-retired-on-30-september-2024/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Batch pool list usage metrics API will be retired on 30 September 2024",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-pool-list-usage-metrics-api-will-be-retired-on-30-september-2024/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Batch task authentication token will be retired on 30 September 2024",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-task-authentication-token-will-be-retired-on-30-september-2024/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Azure CycleCloud support for automatic configuration of LVM for Azure CycleCloud volume mounts will be retired on 30 September 2024",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-cyclecloud-support-for-automatic-configuration-of-lvm-for-azure-cyclecloud-volume-mounts-will-be-retired-on-30-septembe/",
+    "service": "CycleCloud",
+    "deprecated": false
+  },
+  {
+    "title": "Azure CycleCloud support for BeeGFS filesystem cluster type will be retired on 30 September 2024",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-cyclecloud-support-for-beegfs-filesystem-cluster-type-will-be-retired-on-30-september-2024/",
+    "service": "CycleCloud",
+    "deprecated": false
+  },
+  {
+    "title": "Azure CycleCloud support for HTCondor scheduler cluster type will be retired on 30 September 2024",
+    "deprectionDate": "2024-10-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-cyclecloud-support-for-htcondor-scheduler-cluster-type-will-be-retired-on-30-september-2024/",
+    "service": "CycleCloud",
+    "deprecated": false
+  },
+  {
+    "title": "Custom .Net deserializer for Azure Stream Analytics will be retired on 30 September 2024.",
+    "deprectionDate": "2024-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/custom-net-deserializer-for-azure-stream-analytics-will-be-retired-on-30-september-2024-2/",
+    "service": "Stream Analytics",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Multi-Factor Authentication Server will be deprecated 30 September 2024",
+    "deprectionDate": "2024-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-multifactor-authentication-server-will-be-deprecated-30-september-2024/",
+    "service": "Microsoft Entra ID",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement notice: transition to the Authentication methods policy for Azure Active Directory",
+    "deprectionDate": "2024-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-transition-to-the-authentication-methods-policy-for-azure-active-directory/",
+    "service": "Microsoft Entra ID",
+    "deprecated": false
+  },
+  {
+    "title": "Important Notice: Azure Product Retirement: End of Life Announcement of Azure Sphere classic CLI on 30 September 2024. Replace with Azure Sphere CLI",
+    "deprectionDate": "2024-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/important-notice-azure-product-retirement-end-of-life-announcement-of-azure-sphere-classic-cli-on-30-september-2024-replace-w/",
+    "service": "Azure Sphere",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Advisor will no longer display aggregated potential yearly savings beginning 30 September 2024",
+    "deprectionDate": "2024-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-advisor-will-no-longer-display-aggregated-potential-yearly-savings-beginning-30-september-2024/",
+    "service": "Azure Advisor",
+    "deprecated": false
+  },
+  {
+    "title": "Action recommended: Update to using Grafana version 10 for Azure Managed Grafana",
+    "deprectionDate": "2024-09-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/action-recommended-update-to-using-grafana-version-10-for-azure-managed-grafana/",
+    "service": "Managed Grafana",
+    "deprecated": false
+  },
+  {
+    "title": "Action required: Migrate to Azure Database for MySQL Flexible Server by 16 September 2024",
+    "deprectionDate": "2024-09-16T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/action-required-migrate-to-azure-database-for-mysql-flexible-server-by-16-september-2024/",
+    "service": "Database for MySQL",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Maps Data V1 / V2 APIs will be retired on 16 September 2024 – transition to Azure Maps Data Registry APIs",
+    "deprectionDate": "2024-09-16T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-maps-data-v1-v2-apis-will-be-retired-on-16-september-2024/",
+    "service": "Azure Maps",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement notice: The Azure Storage Android client libraries will be retired on 13 September 2024",
+    "deprectionDate": "2024-09-13T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-the-azure-storage-android-client-libraries-will-be-retired-on-13-september-2024/",
+    "service": "Azure Storage",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement notice: The Azure Storage Ruby client libraries will be retired on 13 September 2024",
+    "deprectionDate": "2024-09-13T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-the-azure-storage-ruby-client-libraries-will-be-retired-on-13-september-2024/",
+    "service": "Azure Storage",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement notice: The legacy Azure Storage Go client libraries will be retired on 13 September 2024",
+    "deprectionDate": "2024-09-13T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-the-legacy-azure-storage-go-client-libraries-will-be-retired-on-13-september-2024/",
+    "service": "Azure Storage",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement notice: The legacy Azure Storage Java client libraries will be retired on 13 September 2024",
+    "deprectionDate": "2024-09-13T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-the-legacy-azure-storage-java-client-libraries-will-be-retired-on-13-september-2024/",
+    "service": "Azure Storage",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement notice: The legacy Azure Storage Python client libraries will be retired on 13 September 2024",
+    "deprectionDate": "2024-09-13T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-the-legacy-azure-storage-python-client-libraries-will-be-retired-on-13-september-2024/",
+    "service": "Azure Storage",
+    "deprecated": false
+  },
+  {
+    "title": "Microsoft HPC Pack Burst to Cloud Services will be retired on 31 August 2024",
+    "deprectionDate": "2024-09-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-hpc-pack-burst-to-cloud-services-will-be-retired-on-31-august-2024/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Support for Basic and Standard A-series VM families support will be retired on 31 August 2024 for Batch pools",
+    "deprectionDate": "2024-09-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/support-for-basic-and-standard-aseries-vm-families-support-will-be-retired-on-31-august-2024-for-batch-pools/",
+    "service": "Azure Batch",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Automation is retiring Agent-based User Hybrid Runbook Worker (Windows & Linux) on 31 August 2024",
+    "deprectionDate": "2024-09-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-azure-automation-agent-user-hybrid-worker/",
+    "service": "Automation",
+    "deprecated": false
+  },
+  {
+    "title": "Integration Services Environment will be retired on 31 August 2024 – transition to Logic Apps Standard",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/integration-services-environment-will-be-retired-on-31-august-2024-transition-to-logic-apps-standard/",
+    "service": "Logic Apps",
+    "deprecated": false
+  },
+  {
+    "title": "Upgrade to Text-to-Speech Neural Voice  by 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-re-retiring-the-standard-voice-on-31-august-2024/",
+    "service": "Azure AI Services",
+    "deprecated": false
+  },
+  {
+    "title": "Machine Learning Studio (classic) will retire on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/machine-learning-studio-classic-will-retire-on-31-august-2024/",
+    "service": "Machine Learning",
+    "deprecated": false
+  },
+  {
+    "title": "Select Azure Cognitive Search skills will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-select-azure-cognitive-search-skills-will-be-retired-on-31-august-2024/",
+    "service": "Azure AI Search",
+    "deprecated": false
+  },
+  {
+    "title": "Basic and Standard A-series VMs on HDInsight will retire on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/basic-and-standard-aseries-vms-on-hdinsight-will-retire-on-31-august-2024/",
+    "service": "HDInsight",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Synapse Analytics Compute Optimized data flows will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-synapse-analytics-compute-optimized-data-flows-will-be-retired-on-31-august-2024/",
+    "service": "Synapse Analytics",
+    "deprecated": false
+  },
+  {
+    "title": "Basic and Standard A-series VMs will retire on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/action-required-migrate-your-azure-workloads-to-av2series-vms-before-31-august-2024/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "HB-series Azure Virtual Machines will be retired by 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/hbseries-azure-virtual-machines-will-be-retired-by-31-august-2024/",
+    "service": "Virtual Machines",
+    "deprecated": false
+  },
+  {
+    "title": "Update to Azure Functions Cosmos DB extension version 4.x by 31 August 2024 for continued support",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/update-to-azure-functions-cosmos-db-extension-version-4x-by-31-august-2024-for-continued-support/",
+    "service": "Azure Functions",
+    "deprecated": false
+  },
+  {
+    "title": "App Service Environment version 1 and version 2 will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/app-service-environment-v1-v2-retirement/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "App Service Environment version 1 and version 2 will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/app-service-environment-version-1-and-version-2-will-be-retired-on-31-august-2024-2/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "App Service Environment version 1 and version 2 will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/app-service-environment-version-1-and-version-2-will-be-retired-on-31-august-2024-3/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "App Service Environment version 1 and version 2 will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/app-service-environment-version-1-and-version-2-will-be-retired-on-31-august-2024-4/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "App Service Environment version 1 and version 2 will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/app-service-environment-v1-and-v2-retirement-announcement/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "App Service Environment version 1 and version 2 will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/app-service-environment-version-1-and-version-2-will-be-retired-on-31-august-2024/",
+    "service": "App Service",
+    "deprecated": false
+  },
+  {
+    "title": "Cloud Services (classic) deployment model is retiring on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/cloud-services-classic-retirement-announcement-apr2024/",
+    "service": "Cloud Services",
+    "deprecated": false
+  },
+  {
+    "title": "Cloud Services (classic) deployment model is retiring on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/cloud-services-classic-retirement-announcement-feb2024/",
+    "service": "Cloud Services",
+    "deprecated": false
+  },
+  {
+    "title": "Cloud Services (classic) deployment model is retiring on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/cloud-services-classic-retirement-announcement/",
+    "service": "Cloud Services",
+    "deprecated": false
+  },
+  {
+    "title": "Cloud Services (classic) deployment model is retiring on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/cloud-services-classic-retirement-announcement-jan2024/",
+    "service": "Cloud Services",
+    "deprecated": false
+  },
+  {
+    "title": "Cloud Services (classic) deployment model is retiring on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/cloud-services-retirement-announcement/",
+    "service": "Cloud Services",
+    "deprecated": false
+  },
+  {
+    "title": "Retiring version Async 2.x of the Azure Cosmos DB Java SDK on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-update-java-async-2x-to-java-sdk-4x-by-31-august-2024/",
+    "service": "Cosmos DB",
+    "deprecated": false
+  },
+  {
+    "title": "Update Java SDK 3.x to Java SDK 4.x by 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-update-java-sdk-3x-to-java-sdk-4x-by-31-august-2024/",
+    "service": "Cosmos DB",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Data Factory Compute Optimized data flows will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/compute-optimized-data-flows-will-be-retired-on-31-august-2024/",
+    "service": "Data Factory",
+    "deprecated": false
+  },
+  {
+    "title": "Hard coded IP address for Azure Site Recovery will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/transition-to-using-service-tags-by-31-august-2024/",
+    "service": "Site Recovery",
+    "deprecated": false
+  },
+  {
+    "title": "Change tracking and inventory with Log Analytics agent in Azure Automation will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/changetrackingwithla-retirement-31august2024/",
+    "service": "Automation",
+    "deprecated": false
+  },
+  {
+    "title": "On 31 August 2024, both the update management feature of Azure Automation and the Log Analytics agent it uses will be retired",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/updatemanagement-retired-31august2024/",
+    "service": "Automation",
+    "deprecated": false
+  },
+  {
+    "title": "Migrate to Azure Monitor agent–based VM insights by 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/migrate-to-azure-monitor-agent-based-vm-insights-by-31-august-2024/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Multi-step web tests will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-transition-to-custom-availability-tests-in-application-insights/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Release annotations using API keys will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/transition-to-new-release-annotations-in-application-insights/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "We're retiring the Log Analytics agent in Azure Monitor on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/were-retiring-the-log-analytics-agent-in-azure-monitor-on-31-august-2024/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Five Azure classic networking services will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/classic-networking-retirements-april2024/",
+    "service": "Virtual Network",
+    "deprecated": false
+  },
+  {
+    "title": "Five Azure classic networking services will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/classic-networking-retirements-may2024/",
+    "service": "Virtual Network",
+    "deprecated": false
+  },
+  {
+    "title": "Five Azure classic networking services will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/five-azure-classic-networking-services-will-be-retired-on-31-august-2024/",
+    "service": "Virtual Network",
+    "deprecated": false
+  },
+  {
+    "title": "Azure classic storage accounts will be retired on 31 August 2024",
+    "deprectionDate": "2024-08-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/classic-azure-storage-accounts-will-be-retired-on-31-august-2024/",
+    "service": "Azure Storage",
+    "deprecated": false
+  },
+  {
+    "title": "Azure Synapse Runtime for Apache Spark 3.2 End of Support",
+    "deprectionDate": "2024-07-08T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-synapse-runtime-for-apache-spark-32-end-of-support/",
+    "service": "Synapse Analytics",
+    "deprecated": false
+  },
+  {
+    "title": "Azure AI Video Indexer features adjustments following Media Services Retirement",
+    "deprectionDate": "2024-07-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/videoindexer-2/",
+    "service": "Media Services",
+    "deprecated": false
+  },
+  {
+    "title": "Changes to My Groups admin controls",
+    "deprectionDate": "2024-06-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/changes-to-my-groups-admin-controls/",
+    "service": "Microsoft Entra ID",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement notice: Azure Media Services is being retired on 30 June 2024",
+    "deprectionDate": "2024-06-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-azure-media-services-is-being-retired-on-30-june-2024/",
+    "service": "Media Services",
+    "deprecated": false
+  },
+  {
+    "title": "Container insights recommended alerts (custom metrics) (preview) retirement moving up to 31 May 2024",
+    "deprectionDate": "2024-06-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/container-insights-recommended-alerts-custom-metrics-preview-retirement-moving-up-to-31-may-2024/",
+    "service": "Azure Monitor",
+    "deprecated": false
+  },
+  {
+    "title": "Retirement: Support for .NET 7 ends on 14 May 2024—upgrade your Azure Functions resources to .NET 8",
+    "deprectionDate": "2024-05-24T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-support-for-net-7-ends-on-14-may-2024-upgrade-your-azure-functions-resources-to-net-8/",
+    "service": "Azure Functions",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Object Anchors Retirement",
+    "deprectionDate": "2024-05-21T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-object-anchors-retirement/",
+    "service": "Object Anchors",
+    "deprecated": true
+  },
+  {
+    "title": "Updated Retirement Notice: Azure Data Catalog will now be retired on 15 May 2024",
+    "deprectionDate": "2024-05-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/updated-retirement-notice-azure-data-catalog-will-now-be-retired-on-15-may-2024/",
+    "service": "Data Catalog",
+    "deprecated": true
+  },
+  {
+    "title": "Extended support for .NET 7 (STS) ends on 14 May 2024",
+    "deprectionDate": "2024-05-14T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/dotnet7support/",
+    "service": "App Service",
+    "deprecated": true
+  },
+  {
+    "title": "Retirement notice: Migrate from Public Peering by March 31, 2024",
+    "deprectionDate": "2024-04-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-migrate-from-public-peering-by-march-31-2024/",
+    "service": "ExpressRoute",
+    "deprecated": true
+  },
+  {
+    "title": "SQL Server connector’s V1 actions and triggers will be retired on 31 March 2024 – transition to SQL Server connector’s V2 actions and triggers",
+    "deprectionDate": "2024-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/sql-server-connector-s-v1-actions-and-triggers-will-be-retired-on-31-march-2024-transition-to-sql-server-connector-s-v2-actio/",
+    "service": "Logic Apps",
+    "deprecated": true
+  },
+  {
+    "title": "The “managed” IoT Edge solution on Azure stack Edge will be retired on March 31, 2024. Transition your IoT Edge workloads to an IoT Edge solution running on a Linux VM on Azure Stack Edge.",
+    "deprectionDate": "2024-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/the-managed-iot-edge-solution-on-azure-stack-edge-will-be-retired-on-march-31-2024-transition-your-iot-edge-workloads-to-an-i/",
+    "service": "Virtual Machines",
+    "deprecated": true
+  },
+  {
+    "title": "Retirement notice: Azure Communication Services Network Traversal (TURN) Public Preview is retiring.",
+    "deprectionDate": "2024-03-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-azure-communication-services-network-traversal-turn-public-preview-is-retiring/",
+    "service": "Comm. Services",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Cosmos DB built-in Jupyter notebooks will be retired March 30, 2024",
+    "deprectionDate": "2024-03-30T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azurecosmosdb-notebooks-retirement/",
+    "service": "Cosmos DB",
+    "deprecated": true
+  },
+  {
+    "title": "Retirement notice: The legacy Azure Storage C++ client libraries will be retired on 29 March 2025",
+    "deprectionDate": "2024-03-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-the-legacy-azure-storage-c-client-libraries-will-be-retired-on-29-march-2025/",
+    "service": "Azure Storage",
+    "deprecated": true
+  },
+  {
+    "title": "Retirement notice: The Azure Storage PHP client libraries will be retired on 17 March 2024",
+    "deprectionDate": "2024-03-17T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-the-azure-storage-php-client-libraries-will-be-retired-on-17-march-2024/",
+    "service": "Azure Storage",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Internet Analyzer will be retired on 15 March 2024 – delete profiles",
+    "deprectionDate": "2024-03-15T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-internet-analyzer-will-be-retired-on-15-march-2024-delete-profiles/",
+    "service": "Internet Analyzer",
+    "deprecated": true
+  },
+  {
+    "title": "Retirement: Azure Container Apps preview API versions 2023-04-01-preview",
+    "deprectionDate": "2024-03-06T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-azure-container-apps-preview-api-versions-20230401preview/",
+    "service": "Container Apps",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Batch Certificates will be retired on 29 February 2024",
+    "deprectionDate": "2024-03-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-certificates-will-be-retired-on-29-february-2024/",
+    "service": "Azure Batch",
+    "deprecated": true
+  },
+  {
+    "title": "We are retiring Azure Cognitive Services Text Analytics v2.x on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-are-retiring-azure-cognitive-services-text-analytics-v2x-on-29-february-2024/",
+    "service": "Azure AI Services",
+    "deprecated": true
+  },
+  {
+    "title": "We’re retiring the standard version of Custom Voice on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-re-retiring-the-standard-version-of-custom-voice-on-29-february-2024/",
+    "service": "Azure AI Services",
+    "deprecated": true
+  },
+  {
+    "title": "Action required: Switch to Azure Data Lake Storage Gen2 by 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/action-required-switch-to-azure-data-lake-storage-gen2-by-29-february-2024/",
+    "service": "Data Lake Storage",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Data Lake Analytics will be retired on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/migrate-to-azure-synapse-analytics/",
+    "service": "Data Lake Analytics",
+    "deprecated": true
+  },
+  {
+    "title": "AKS legacy Azure AD integration will be retired on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/aks-legacy-azure-ad-integration-will-be-retired-on-29-february-2024/",
+    "service": "Kubernetes Service",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Batch ‘CloudServiceConfiguration’ pools will be retired on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-cloudserviceconfiguration-pools-will-be-retired-on-29-february-2024/",
+    "service": "Azure Batch",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Batch rendering VM images & licensing will be retired on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-rendering-vm-images-licensing-will-be-retired-on-29-february-2024/",
+    "service": "Azure Batch",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Batch Transcription and Customization Rest API v2 will be retired by 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-batch-transcription-and-customization-rest-api-v2-will-be-retired-by-29-february-2024/",
+    "service": "Azure Batch",
+    "deprecated": true
+  },
+  {
+    "title": "Update the Azure Cosmos DB Java SDK by 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/update-the-azure-cosmos-db-java-sdk-by-29-february-2024/",
+    "service": "Cosmos DB",
+    "deprecated": true
+  },
+  {
+    "title": "Jenkins plug-ins for Azure are being retired on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/jenkins-plugins-for-azure-are-being-retired-on-29-february-2024/",
+    "service": "Azure DevOps",
+    "deprecated": true
+  },
+  {
+    "title": "Please upgrade your Azure AD Connect sync to a newer version by 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/please-upgrade-your-azure-ad-connect-sync-to-a-newer-version-by-29-february-2024/",
+    "service": "Microsoft Entra ID",
+    "deprecated": true
+  },
+  {
+    "title": "Start using new alerts in Azure Monitor for Azure Government Cloud",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/start-using-new-alerts-in-azure-monitor-for-azure-government-cloud/",
+    "service": "Azure Monitor",
+    "deprecated": true
+  },
+  {
+    "title": "We’re retiring Classic Application Insights on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-re-retiring-classic-application-insights-on-29-february-2024/",
+    "service": "Azure Monitor",
+    "deprecated": true
+  },
+  {
+    "title": "Update your Azure Media Services REST API and SDKs to v3 by 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/update-your-azure-media-services-rest-api-and-sdks-to-v3-by-29-february-2024/",
+    "service": "Media Services",
+    "deprecated": true
+  },
+  {
+    "title": "We are retiring Classic Azure Migrate on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-are-retiring-classic-azure-migrate-on-29-february-2024/",
+    "service": "Azure Migrate",
+    "deprecated": true
+  },
+  {
+    "title": "Azure Application Gateway analytics will be retired on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-application-gateway-analytics-will-be-retired-on-29-february-2024/",
+    "service": "Application Gateway",
+    "deprecated": true
+  },
+  {
+    "title": "We’re retiring Azure Network Watcher Connection Monitor (classic) on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-re-retiring-azure-network-watcher-connection-monitor-classic-on-29-february-2024/",
+    "service": "Network Watcher",
+    "deprecated": true
+  },
+  {
+    "title": "We’re retiring Network Performance Monitor on 29 February 2024",
+    "deprectionDate": "2024-02-29T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/we-re-retiring-network-performance-monitor-on-29-february-2024/",
+    "service": "Network Watcher",
+    "deprecated": true
+  },
+  {
+    "title": "Game Dev VM Marketplace Application will be retired on February 1st, 2024",
+    "deprectionDate": "2024-02-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/game-dev-vm-marketplace-application-will-be-retired-on-january-31st-2024/",
+    "service": "Virtual Machines",
+    "deprecated": true
+  },
+  {
+    "title": "Support for select marketplace images for Batch pools will be retired",
+    "deprectionDate": "2024-01-10T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/support-for-select-marketplace-images-for-batch-pools-will-be-retired/",
+    "service": "Azure Batch",
+    "deprecated": true
+  },
+  {
+    "title": "Community support for PHP 8.0 is ending on 26 November 2023",
+    "deprectionDate": "2023-11-26T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/php8support/",
+    "service": "App Service",
+    "deprecated": true
+  },
+  {
+    "title": "Retirement: Azure Container Apps preview API versions 2022-06-01-preview and 2022-11-01-preview",
+    "deprectionDate": "2023-11-16T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-azure-container-apps-preview-api-versions-20220601preview-and-20221101preview/",
+    "service": "Container Apps",
+    "deprecated": true
+  },
+  {
+    "title": "Support for PostgreSQL 11 in Azure Database PostgreSQL - Hyperscale (Citus) ends on 9 November 2023",
+    "deprectionDate": "2023-11-09T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/hyperscalecitus-pg11/",
+    "service": "Database for PostgreSQL",
+    "deprecated": true
+  },
+  {
+    "title": "Retirement notice: Bing Speech will be retired on 3 November 2023",
+    "deprectionDate": "2023-11-03T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/retirement-notice-bing-speech-will-be-retired-on-3-november-2023/",
+    "service": "Azure AI Services",
+    "deprecated": true
+  },
+  {
+    "title": "Azure CDN will be retiring Azure CDN Standard from Akamai on 31 October 2023 – transition to another CDN profile to avoid service interruption",
+    "deprectionDate": "2023-11-01T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/azure-cdn-will-be-retiring-azure-cdn-standard-from-akamai-on-31-october-2023-transition-to-another-cdn-profile-to-avoid-servi/",
+    "service": "Azure CDN",
+    "deprecated": true
+  },
+  {
+    "title": "Legacy developer portal in Azure API Management will retire on 31 October 2023",
+    "deprectionDate": "2023-10-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/legacy-developer-portal-in-azure-api-management-will-retire-on-31-october-2023/",
+    "service": "API Management",
+    "deprecated": true
+  },
+  {
+    "title": "Bing Search APIs will transition from Azure Cognitive Services to Azure Marketplace on 31 October 2023",
+    "deprectionDate": "2023-10-31T00:00:00",
+    "link": "https://azure.microsoft.com/en-us/updates/bing-search-apis-will-transition-from-azure-cognitive-services-to-azure-marketplace-on-31-october-2023/",
+    "service": "Azure AI Services",
+    "deprecated": true
+  }
+]
