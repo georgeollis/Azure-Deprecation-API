@@ -2,22 +2,24 @@
 function getAzureDeprections {
         
     try {
-        [xml]$xmldoc = (iwr -Uri "https://aztty.azurewebsites.net/rss/deprecations").Content.Substring(1) # Get Azure deprecations
+        # [xml]$xmldoc = (iwr -Uri "https://aztty.azurewebsites.net/rss/deprecations").Content.Substring(1) # Get Azure deprecations
+        [xml]$xmldoc = (Invoke-WebRequest -Uri "https://aztty.azurewebsites.net/rss/deprecations").Content
     }
     catch {
         throw $_.Exception.Message
     }
     
-    $list = [System.Collections.ArrayList]@() # Create an empty array
+    $list = [System.Collections.ArrayList]@() # Create an empty list
 
     foreach ($item in $xmldoc.rss.channel.item) {
 
-        $date = [datetime](((($item.description).Split(",")[1]).Trim() | Select-String -Pattern "\d{1,2}/\d{1,2}/\d{4}").Matches.Value) # Regex find date pattern
-        $service = ($item.description).Split(",")[0].Split(":")[1].Trim() # Select the service name
-        $period = $item.description.Split(",")[2].Split(":")[1].Trim()
+        $itemBeingRetired = ($item.description | Select-String -Pattern "\[([^\]]+)\]").Matches.Value.Split(",").Split(":").Replace("[", "").Replace("]", "").Trim()
+        $service = $itemBeingRetired[1]
+        $date = [datetime]$itemBeingRetired[3]
+        $period = $itemBeingRetired[5]
         $title = ($item.title).Trim() # Remove white space from title
         $publishedDate = [datetime]$item.pubDate
-
+        $description = ($item.description | Select-String -Pattern "(?<=^|])([^][]+)(?=\[|$)").Matches.Value.Trim()
 
         $object = [PSCustomObject]@{
             title          = $title
@@ -25,6 +27,7 @@ function getAzureDeprections {
             link           = $item.link.href
             service        = $service
             deprecated     = [bool]($date -lt (Get-Date))
+            description    = $description
             publishedDate  = $publishedDate
             targetPeriod   = $period
             id             = ($xmldoc.rss.channel.item).IndexOf($item)
@@ -45,7 +48,6 @@ function resourceTypeConversion {
     param (
         [Parameter()][string]$resource
     )
-
 
     switch ($resource) {
         "Data Factory" { $value = "Microsoft.DataFactory/factories" } 
